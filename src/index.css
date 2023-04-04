@@ -1,13 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.rsc {
+  color: blue;
+  margin: 15px 0;
+}
+.btnAnt {
+  color: blue;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+
+.ant-btn-default:not(:disabled):hover {
+  color: white;
+  background-color: blue;
+}
+.controlCenter {
+  display: flex;
+  justify-content: center;
+}
+/* .tab {
+  border: 1px solid black;
+} */
+.ant-checkbox-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-top: 10px;
+  margin-inline-start: 0;
+}
+.ant-input-affix-wrapper {
+  margin-top: 10px;
 }
